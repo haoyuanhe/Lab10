@@ -26,6 +26,7 @@ public class GraphPlotter extends JPanel {
      * Create a new plot.
      *
      * @param yValues holds the Y values
+     *                
      */
     public GraphPlotter(final int[] yValues) {
         data = yValues.clone();
